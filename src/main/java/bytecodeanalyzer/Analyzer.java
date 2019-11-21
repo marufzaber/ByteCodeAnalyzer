@@ -45,7 +45,12 @@ public class Analyzer {
 	}
 	
 	/**
-	 * Implement this method. 
+	 * Implement this method. Just detect if relevant method call for
+	 * reflection occurs inside {@link code} string. Read details about 
+	 * Java reflection - 
+	 * https://www.geeksforgeeks.org/reflection-in-java/
+	 * https://www.journaldev.com/1789/java-reflection-example-tutorial
+	 * https://www.baeldung.com/java-reflection
 	 * @param method
 	 * @return
 	 */
@@ -56,8 +61,10 @@ public class Analyzer {
 	}
 	
 	/**
-	 * Implement this method. 
-	 * @param method
+	 * Implement this method. Just detect if relevant method call for
+	 * reflection occurs inside {@link code} string. Read 
+	 * https://docs.oracle.com/javase/tutorial/essential/io/file.html
+	 * @param method. 
 	 * @return
 	 */
 	private boolean containsFileIO(Method method) {
